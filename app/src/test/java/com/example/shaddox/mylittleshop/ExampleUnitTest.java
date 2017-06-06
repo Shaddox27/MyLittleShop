@@ -1,4 +1,4 @@
-package com.example.shaddox.habittracker;
+package com.example.shaddox.mylittleshop;
 
 import org.junit.Test;
 

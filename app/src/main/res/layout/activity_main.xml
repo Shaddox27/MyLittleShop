@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shaddox.habittracker.MainActivity">
+    tools:context="com.example.shaddox.mylittleshop.MainActivity">
 
     <TextView
-        android:id="@+id/text_view_habits"
+        android:id="@+id/text_view_items"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="This is a sample habit!"
+        tools:text="This is a sample item!"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:layout_margin="15dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/fab_plus_icon"
+        android:background="@drawable/circle"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

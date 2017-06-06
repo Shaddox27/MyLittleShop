@@ -1,4 +1,4 @@
-package com.example.shaddox.habittracker;
+package com.example.shaddox.mylittleshop;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.shaddox.habittracker", appContext.getPackageName());
+        assertEquals("com.example.shaddox.mylittleshop", appContext.getPackageName());
     }
 }
